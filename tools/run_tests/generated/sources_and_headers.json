@@ -5925,6 +5925,7 @@
   }, 
   {
     "deps": [
+      "gpr", 
       "grpc", 
       "grpc++_base", 
       "grpc++_codegen_base", 
@@ -5961,6 +5962,7 @@
     "deps": [
       "census", 
       "gpr", 
+      "grpc", 
       "grpc++_base", 
       "grpc++_codegen_base", 
       "grpc++_codegen_base_src", 
@@ -6108,6 +6110,7 @@
   {
     "deps": [
       "gpr", 
+      "grpc", 
       "grpc++_base", 
       "grpc++_codegen_base", 
       "grpc++_codegen_base_src", 
@@ -8913,6 +8916,8 @@
   }, 
   {
     "deps": [
+      "gpr", 
+      "grpc", 
       "grpc++_codegen_base", 
       "nanopb"
     ], 

@@ -2299,6 +2299,7 @@ target_link_libraries(grpc++
   ${_gRPC_PROTOBUF_LIBRARIES}
   ${_gRPC_ALLTARGETS_LIBRARIES}
   grpc
+  gpr
 )
 
 foreach(_hdr
@@ -2687,6 +2688,7 @@ target_link_libraries(grpc++_cronet
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gpr
   grpc_cronet
+  grpc
 )
 
 foreach(_hdr
@@ -3268,6 +3270,7 @@ target_link_libraries(grpc++_unsecure
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gpr
   grpc_unsecure
+  grpc
 )
 
 foreach(_hdr
